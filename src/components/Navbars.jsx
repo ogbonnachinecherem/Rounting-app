@@ -22,6 +22,9 @@ function Navbars() {
         <Link  style={{marginRight: "1rem", color: "white"}} to="services">Services</Link>
         </Nav.Item>
         <Nav.Item as="li">
+        <Link  style={{marginRight: "1rem", color: "white"}} to="newcontact">newcontact</Link>
+        </Nav.Item>
+        <Nav.Item as="li">
         <Link  style={{marginRight: "1rem", color: "white"}} to="project">Project</Link>
         </Nav.Item>
     </Nav>

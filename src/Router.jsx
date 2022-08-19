@@ -7,6 +7,8 @@ import Services from './components/Services';
 import Navbars from './components/Navbars';
 import ServicesDetails from './components/ServicesDetails';
 import Project from './components/Project';
+import ErrorPage from './components/ErrorPage';
+import NewContact from './components/NewContact';
 function Router() {
   return (
 <BrowserRouter>
@@ -17,7 +19,9 @@ function Router() {
     <Route path="/contact" element={<Contact />} />
     <Route path="/services" element={<Services/>} />
     <Route path="/project" element={<Project/>} />
+    <Route path="/newcontact" element={<NewContact/>} />
     <Route path="/servicesDetails:id" element={<ServicesDetails/>}/>
+    <Route path="*" element={<ErrorPage/>} />
 </Routes>
 </BrowserRouter>
   )
